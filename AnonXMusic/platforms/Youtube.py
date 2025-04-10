@@ -8,8 +8,8 @@ import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
-from AviaxMusic.utils.database import is_on_off
-from AviaxMusic.utils.formatters import time_to_seconds
+from AnonXMusic.utils.database import is_on_off
+from AnonXMusic.utils.formatters import time_to_seconds
 import os
 import glob
 import random
@@ -19,7 +19,7 @@ import config
 from config import KEY
 
 def cookie_txt_file():
-    cookie_dir = "AviaxMusic/cookies"
+    cookie_dir = "AnonXMusic/cookies"
     cookies_files = [f for f in os.listdir(cookie_dir) if f.endswith(".txt")]
     cookie_file = os.path.join(cookie_dir, random.choice(cookies_files))
     return cookie_file
