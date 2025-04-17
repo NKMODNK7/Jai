@@ -16,9 +16,12 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-KEY = getenv("KEY", "83d4c4771d0546b94dedffa4ff0ee5ec6a51d95ef35166923be59ca9be570676")
+
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
+
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz')
+API_KEY = getenv("API_KEY", None)
 
 # Set this to true if you want post ads automatically
 ADS_MODE = getenv("ADS_MODE", None)
@@ -40,7 +43,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/NKMODNK7/Jai",
+    "https://github.com/masoom70/Jerry",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -91,7 +94,7 @@ START_IMG_URL = getenv(
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://envs.sh/WJ-.jpg"
 )
-PLAYLIST_IMG_URL = "https://envs.sh/WJ-.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/_B5.jpg"
 STATS_IMG_URL = "https://envs.sh/WJ-.jpg"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
